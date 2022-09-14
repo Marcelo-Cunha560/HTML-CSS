@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* configuração gobal*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: auto;
+}
+header {
+    text-align: center;
+    background-image: linear-gradient(to top, #195A36, rgb(97, 192, 85));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#slogan {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    margin: 0px;
+    padding: 10px;
+
+}
+
+nav {
+    font-weight: bold;
+    text-align: left;
+}
+
+menu ul {
+    list-style: none;
+    padding: 0px;
+
+}
+
+#menu ul li{
+    display: inline; 
+  
+}
+
+#menu ul li a {
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+#menu ul li a:hover{
+    background-color: rgba(34, 136, 34, 0.897);
+}
+body {
+    margin: 0px;
+    background-color: #84E1AD;
+    
+}
+
+main {
+    background-color: white;
+    width: 850px;
+    padding: 20px;
+    margin: auto;
+}
+
+#Titulo {
+    font-family: idroid;
+    color: #1A6038;
+    text-align: left;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0px 0px 0px;
+
+}
+
+h2 {
+    font-family: idroid;
+    color: #1A6038;
+    background-image: linear-gradient(to right, #84E1AD, white);
+    margin: 20px 0px 0px 0px;
+} 
+
+#bugdroid {
+    text-align: center;
+}
