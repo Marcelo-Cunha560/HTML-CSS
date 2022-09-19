@@ -21,6 +21,7 @@
     --fonte-android: 'Android', cursive;
 }
 
+/* elementos globais para todo o documento*/
 
 * {
     margin: 0px;
