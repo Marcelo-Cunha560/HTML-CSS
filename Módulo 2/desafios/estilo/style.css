@@ -106,9 +106,12 @@ main {
     border-bottom-right-radius: 10px;
 }
 
+/*adaptção da imagem independente do conteudo*/
 main img {
     width: 100%;
 }
+
+/*adaptação de uma imagem sem a imagem pequena, colocando o display em bloco e centralizando com o margin:auto*/
 
 main img.pequena {
     max-width: 350px;
