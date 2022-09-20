@@ -45,6 +45,7 @@ main p {
 }
 
 header { 
+    /* transição de cores no background*/
     background-image: linear-gradient(to bottom, var(--cor03), var(--cor05));
     min-height: 150px;
     text-align: center;
